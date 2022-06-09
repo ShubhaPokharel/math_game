@@ -1,0 +1,33 @@
+#output{
+  background: ghostwhite;
+  border-radius: 30px;
+  border-top: #AA4465;
+  padding: 10px;
+  float: none;
+  text-align: left;
+  height: 50;
+}
+#number1, #number2{
+    border-radius: 30px;
+    border: rgb(255, 255, 255);
+    height: 30px;
+}
+
+#send{
+    border: lightcoral;
+    border-radius: 40px;
+    font-size: 20px;
+    color: lightcoral;
+}
+
+h1{
+    color: lightcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h4{
+    color: mediumvioletred;
+    font-family: serif;
+    font-size: 200%;
+}

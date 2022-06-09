@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Math Quiz Game!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="body_background" style="background-color: #dda5ae;">
+    <center>
+        <h1>Log In</h1>
+        <br><br><br>
+        <div class="container top-image" style="background-color: #dda5ae; border: 1px solid black; width: 500px;">
+            <img src="people.png" style="width: 100px;" class="new_image" ;>
+            <br><br>
+            <p style="font-size: 30px;">Player 1 username: </p>
+
+            <input type="text" placeholder="Player 1 name"
+                style="background-color: white; border-radius: 30px; border: lightpink;" id="player1_name_input">
+            <br><br>
+            <p style="font-size: 30px;">Player 2 username: </p>
+            <input type="text" placeholder="Player 2 name"
+                style="background-color: white; border-radius: 30px; border: lightpink; " id="player2_name_input">
+            <br><br>
+            <button id="log_in" onclick="addUser()" style="border-radius: 50px; border: violet; font-size: 20px; font-family: initial;"> Log In</button>
+            <br><br>
+    </center>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
